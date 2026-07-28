@@ -15,8 +15,8 @@ function sendResetEmail($to_email, $to_name, $reset_link) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'rc24299@adab.umpsa.edu.my';  
-        $mail->Password   = 'ojwr bete yfnz xzpj';  
+        $mail->Username   = 'YourEmail@adab.umpsa.edu.my';  
+        $mail->Password   = 'YourPassword';  
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         
