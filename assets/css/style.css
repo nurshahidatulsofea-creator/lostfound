@@ -1,0 +1,288 @@
+/* --- 1. RESET & BASE --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- 2. THEME GREEN TEAL (Login/Register/Forgot) --- */
+.flex-center-body {
+    background-color: #00a896; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.login-container {
+    background: #ffffff;
+    padding: 50px 45px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 480px; 
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.login-container img {
+    width: 130px;
+    margin-bottom: 20px;
+}
+
+/* Form Input Style (Moden & Besar) */
+.form-group {
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d1d9e6; 
+    font-size: 15px;
+    color: #333;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus {
+    background-color: #c5cedb;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+/* Butang Utama (Biru Lebar & Rounded) */
+.btn-primary, .btn-login {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+}
+
+.btn-primary:hover, .btn-login:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.footer-link, .register-link {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+    display: block;
+    text-decoration: none;
+}
+
+.footer-link a, .register-link {
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* --- 3. NAVBAR --- */
+.navbar {
+    background: #ffffff;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-brand { display: flex; align-items: center; }
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4a5568;
+    font-weight: 600;
+    font-size: 14px;
+}
+.nav-links a.active { color: #00a896 !important; font-weight: 800; } 
+
+.btn-logout {
+    background: #00a896;
+    color: #ffffff !important;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn-logout:hover { background: #008f80; }
+
+/* --- 4. ITEM GRID & CARDS --- */
+.wide-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.item-card {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid #eee;
+}
+
+.img-placeholder {
+    width: 100%;
+    height: 200px; 
+    background-color: #edf2f7;
+    overflow: hidden;
+}
+
+.img-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.item-info {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.item-info p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #4a5568;
+}
+
+/* --- 5. SEARCH & FILTER BAR (Capsule Design) --- */
+.filter-container {
+    background: #ffffff;
+    padding: 8px 15px;
+    border-radius: 50px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    margin: 0 auto 40px;
+    max-width: 850px;
+    display: flex;
+    gap: 0; 
+    align-items: center;
+    border: 1px solid #e2e8f0;
+}
+
+.search-input {
+    flex: 3;
+    padding: 12px 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+}
+
+.filter-select {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-left: 1px solid #e2e8f0; 
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    color: #4a5568;
+}
+
+.btn-search {
+    background: #00a896;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+/* --- 6. BADGES & STATUS --- */
+.type-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 800;
+    color: white;
+    z-index: 5;
+    text-transform: uppercase;
+}
+.bg-lost { background: #e53e3e; }
+.bg-found { background: #48bb78; }
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.status-pending { background: #fff3cd; color: #856404; }
+.status-verified { background: #d4edda; color: #155724; }
+
+.category-label {
+    font-size: 11px;
+    color: #718096;
+    background: #edf2f7;
+    padding: 3px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* --- 7. BUTTONS & MESSAGES --- */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.btn-red { background: #e53e3e; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+.btn-green { background: #48bb78; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+.btn-red:hover { background: #c53030; }
+.btn-green:hover { background: #38a169; }
+
+.msg-error {
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #fecaca;
+    text-align: center;
+}
