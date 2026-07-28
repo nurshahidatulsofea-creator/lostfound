@@ -29,13 +29,17 @@ A full-stack, web-based Lost & Found Management System designed for campus commu
 
 ## 🖼️ Application Screenshots
 
-| Login & Authentication | User Dashboard |
-| :---: | :---: |
-| <img src="screenshots/Login.png" width="400"> | <img src="screenshots/dashboard.png" width="400"> |
+### Login Page
+![Login Page](screenshots/Login.png)
 
-| Browse & Search Items | Report Item |
-| :---: | :---: |
-| <img src="screenshots/browse items.png" width="400"> | <img src="screenshots/reportlost.png" width="400"> |
+### User Dashboard
+![User Dashboard](screenshots/dashboard.png)
+
+### Browse Items
+![Browse Items](screenshots/browse%20items.png)
+
+### Admin Analytics
+![Analytics](screenshots/analytics.png)
 
 ---
 
