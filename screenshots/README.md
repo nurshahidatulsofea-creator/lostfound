@@ -31,11 +31,11 @@ A full-stack, web-based Lost & Found Management System designed for campus commu
 
 | Login & Authentication | User Dashboard |
 | :---: | :---: |
-| <img src="screenshots/01-login.png" width="400"> | <img src="screenshots/02-dashboard.png" width="400"> |
+| <img src="login.png" width="400"> | <img src="dashboard.png" width="400"> |
 
 | Browse & Search Items | Report Item |
 | :---: | :---: |
-| <img src="screenshots/05-browse-items.png" width="400"> | <img src="screenshots/03-report-lost.png" width="400"> |
+| <img src="browse-items.png" width="400"> | <img src="report-lost.png" width="400"> |
 
 ---
 
