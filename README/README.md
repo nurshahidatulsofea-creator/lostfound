@@ -1,4 +1,4 @@
-# 🔍 LostFound+ — Smart Lost & Found Management System
+# 🔍 LostFound — Smart Lost & Found Management System
 
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
