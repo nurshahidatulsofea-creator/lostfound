@@ -35,7 +35,7 @@ A full-stack, web-based Lost & Found Management System designed for campus commu
 
 | Browse & Search Items | Report Item |
 | :---: | :---: |
-| <img src="browse-items.png" width="400"> | <img src="report-lost.png" width="400"> |
+| <img src="browse items.png" width="400"> | <img src="report lost.png" width="400"> |
 
 ---
 
