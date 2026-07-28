@@ -27,22 +27,6 @@ A full-stack, web-based Lost & Found Management System designed for campus commu
 
 ---
 
-## 🖼️ Application Screenshots
-
-### Login Page
-![Login Page](screenshots/Login.png)
-
-### User Dashboard
-![User Dashboard](screenshots/dashboard.png)
-
-### Browse Items
-![Browse Items](screenshots/browse%20items.png)
-
-### Admin Analytics
-![Analytics](screenshots/analytics.png)
-
----
-
 ## 🛠️ Tech Stack & Dependencies
 
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+), Chart.js
